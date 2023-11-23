@@ -14,6 +14,11 @@ dependencies:
   path: ^1.8.3
   meta: ^1.9.1
   archive: ^3.3.7
+  
+
+dependency_overrides:
+  # 解决解码报错异常
+  pointycastle: 3.6.2
 
 dev_dependencies:
   flutter_test:
